@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Flat Surface Shader</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+
+
+    body {
+      font-family: "Vidaloka", serif;
+      -webkit-font-smoothing: antialiased;
+      font-weight: normal;
+      font-size: 50px;
+      background: #151618;
+      color: #FFF;
+      margin: 0;
+    }
+
+    h1 {
+      text-transform: uppercase;
+      letter-spacing: 4px;
+      font-weight: normal;
+      font-size: 25px;
+    }
+
+    p {
+      line-height: 1.6em;
+      text-align: center;
+      font-size: 14px;
+    }
+    .wrapper {
+      transition: opacity 0.4s ease-out;
+      margin: -280px -180px;
+      text-align: center;
+      position: absolute;
+      height: 560px;
+      width: 360px;
+      left: 50%;
+      top: 50%;
+    }
+
+    .header {
+      margin-bottom: 80px;
+    }
+  </style>
+</head>
+<body>
+  <div id="container">
+    <div id="output"></div>
+    <div id="ui" class="wrapper">
+      <header id="header" class="header">
+        <h1>Alec Ramos</h1>
+      </header>
+    </div>
+  </div>
+  <script src='http://matthew.wagerfield.com/flat-surface-shader/deploy/fss.min.js'></script>
+  <script src="js/index.js"></script>
+</body>
+</html>
